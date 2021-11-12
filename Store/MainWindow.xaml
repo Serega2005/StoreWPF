@@ -9,18 +9,14 @@
     <Window.Resources>
         <ResourceDictionary Source="Style.xaml"/>
     </Window.Resources>
-
-    <DockPanel>
-        
+    <DockPanel LastChildFill="True">
         <StackPanel DockPanel.Dock="Top"  Orientation="Horizontal">
             <Button Content="Магазин"/>
             <Button Content="Авторизоваться"/>
         </StackPanel>
-        
-          <StackPanel DockPanel.Dock="Bottom"  Orientation="Vertical">
+        <StackPanel DockPanel.Dock="Bottom"  Orientation="Vertical">
             <Label Content="Statys:"/>
         </StackPanel>
-
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -32,7 +28,6 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-
             <Image Grid.Row="0" Grid.Column="0" 
                    Source="C:\Users\Сергей Шугани\source\repos\StoreWPF\Store\img\product.jpg" 
                    Style="{StaticResource ResourceKey=Image_Style}"/>
@@ -45,7 +40,6 @@
             <Image Grid.Row="0" Grid.Column="3" 
                    Source="C:\Users\Сергей Шугани\source\repos\StoreWPF\Store\img\product.jpg"
                    Style="{StaticResource ResourceKey=Image_Style}"/>
-
             <Image Grid.Row="1" Grid.Column="0" 
                    Source="C:\Users\Сергей Шугани\source\repos\StoreWPF\Store\img\product.jpg"
                    Style="{StaticResource ResourceKey=Image_Style}"/>
