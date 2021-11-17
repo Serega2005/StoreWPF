@@ -20,7 +20,7 @@
             <Label x:Name="Label_StatusBar" Content="Status: " />
         </StackPanel>
 
-        <Grid x:Name="Body">
+        <Grid x:Name="Grid_Body">
             <!-- -->
         </Grid>
     </DockPanel>

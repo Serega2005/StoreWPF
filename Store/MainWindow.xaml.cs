@@ -51,7 +51,7 @@ namespace Store
         {
             var cardImage = new Image
             {
-                Source = new BitmapImage(new Uri(@"D:\Programming\Education\ITStep\Shambala\StoreWPF\Store\img\product.jpg"))
+                Source = new BitmapImage(new Uri(@"C:\Users\Сергей Шугани\source\repos\StoreWPF\Store\img\product.jpg"))
             };
 
             var card = new StackPanel
@@ -83,7 +83,7 @@ namespace Store
                 Orientation = Orientation.Horizontal
             };
 
-            cardAmount.Children.Add(CreateCardAmountButton("-"));
+            cardAmount.Children.Add(CreateCardAmountButton(" - "));
             cardAmount.Children.Add(CreateCardAmountLabel());
             cardAmount.Children.Add(CreateCardAmountButton("+"));
 
