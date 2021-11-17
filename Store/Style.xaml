@@ -10,11 +10,9 @@
         <Setter Property="Margin" Value="10,5"/>
         <Setter Property="Padding" Value="20,5"/>
         <Setter Property="Foreground" Value="Gold"/>
-        <Setter Property="Background" Value="Gray"/>
     </Style>
 
     <Style TargetType="DockPanel" BasedOn="{StaticResource Style}">
-        <Setter Property="Background" Value="Gray"/>
     </Style>
     
     <Style TargetType="Image">
