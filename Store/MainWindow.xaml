@@ -10,13 +10,16 @@
         <ResourceDictionary Source="Style.xaml"/>
     </Window.Resources>
     <DockPanel LastChildFill="True">
-        <StackPanel x:Name="Menu" DockPanel.Dock="Top"  Orientation="Horizontal">
+        <StackPanel DockPanel.Dock="Top"  Orientation="Horizontal">
             <Button Content="Магазин"/>
+            <Button x:Name="Button_Basket" Content="Корзина" Click="Button_Basket_Click"/>
             <Button Content="Авторизоваться"/>
         </StackPanel>
-        <StackPanel DockPanel.Dock="Bottom"  Orientation="Vertical">
-            <Label x:Name="Statusbar" Content="Statys:"/>
+
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Vertical">
+            <Label x:Name="Label_StatusBar" Content="Status: " />
         </StackPanel>
+
         <Grid x:Name="Body">
             <!-- -->
         </Grid>
